@@ -1,3 +1,4 @@
+#This is a small program helping you to ricite GRE vocabulary
 import time
 wlist1=open("wordlist2.txt","r",encoding='utf-8')
 docu=wlist1.read()
@@ -9,6 +10,7 @@ for item in docu:
         i=i+1
     time.sleep(9)
 wlist1.close()
+time.sleep(120)
 wlist2=open("wordlist.txt","r",encoding='utf-8')
 docu2=wlist2.read()
 docu2=docu2.split("\n")
